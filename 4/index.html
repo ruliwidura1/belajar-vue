@@ -1,0 +1,15 @@
+<div id="app">
+  <div class="product">
+    <div class="product-image">
+      <img src="./assets/kaos_kaki_kuning.jpg">
+    </div>
+
+    <div  class="produc-info">
+      <h1>{{ product }}</h1>
+      <p v-if="inStock">In stock</p>
+      <p v-else>Out of stock</p>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/vue"></script>
+<script src="main.js"></script>
